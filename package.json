@@ -1,0 +1,24 @@
+{
+  "name": "place-puppy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/sibr/place-puppy.git"
+  },
+  "author": "Simon Breiter",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sibr/place-puppy#readme",
+  "dependencies": {
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
