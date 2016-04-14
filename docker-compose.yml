@@ -1,0 +1,5 @@
+place-puppy:
+  container_name: place-puppy
+  build: .
+  ports:
+    - 8010:8000
