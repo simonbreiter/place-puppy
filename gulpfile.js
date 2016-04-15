@@ -13,7 +13,7 @@ gulp.task('sass:development', function() {
 });
 
 gulp.task('sass:release', function() {
-    return gulp.src('public/scss/**/*.scss')
+    return gulp.src('static/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('static/css'))
 });
