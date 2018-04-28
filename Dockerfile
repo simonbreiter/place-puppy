@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 MAINTAINER Simon Breiter hello@simonbreiter.ch
 
 # Get newest updates
@@ -6,13 +6,14 @@ RUN apt-get -y update
 # Install pip3
 RUN apt-get -y install python3-pip
 # Install PIL dependencies
-RUN apt-get -y build-dep python-imaging
+#RUN apt-get -y build-dep python-imaging
+RUN apt-get -y install python-pil
 RUN apt-get -y install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
 # Install curl
 RUN apt-get install -y curl
 # Install nodejs and npm
-RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
-RUN sudo apt-get install -y nodejs
+RUN apt-get install -y nodejs
+RUN apt-get install -y npm
 # Install gulp
 RUN npm install -g gulp-cli
 
