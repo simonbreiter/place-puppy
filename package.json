@@ -13,12 +13,13 @@
   "author": "Simon Breiter",
   "license": "MIT",
   "homepage": "https://bitbucket.org/sibr/place-puppy#readme",
-  "dependencies": {
-    "gulp-refresh": "^1.1.0",
-    "gulp-sass": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0"
-  },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "npm": "^6.0.0"
   }
 }
